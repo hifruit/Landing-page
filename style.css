@@ -1,7 +1,12 @@
+body {
+    
+    margin: 0%;
+}
 .header {
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
+    margin-bottom: 40px;
     
 }
 .header-links {
@@ -23,10 +28,14 @@ h4{
     color: #E5E7EB;
 
 }
+.top {
+    padding: 20px 10%;
+}
 
 .top, .footer {
     background-color: #1F2937;
 }
+
 
 a {
 /* this removes the line under our links */
@@ -41,3 +50,28 @@ ul {
     gap: 16px;
     margin-left: auto;
   }
+
+.middle {
+    margin: 20px 0%;
+    
+}
+h2 {
+    text-align: center;
+}
+
+.info {
+    padding: 20px 15%;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 20px 15%;
+}
+
+.calltoaction {
+    margin: 20px 10%;
+    padding: 20px 5%;
+    background-color: #3882F6;
+    display: flex;
+
+}
