@@ -28,6 +28,17 @@ h4{
     color: #E5E7EB;
 
 }
+
+button {
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: none;
+}
+
+
 .top {
     padding: 20px 10%;
 }
@@ -74,4 +85,9 @@ h2 {
     background-color: #3882F6;
     display: flex;
 
+}
+.calltoaction button {
+    margin-left: auto;
+    border: #E5E7EB;
+    border-style: solid;
 }
