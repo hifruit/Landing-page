@@ -18,6 +18,10 @@ body {
     display: flex;
 }
 
+.herotext {
+    padding-right: 35px;
+}
+
 h1{ 
     font-size: 48px;
     color: #F9FAF8;
@@ -73,6 +77,7 @@ h2 {
 .info {
     padding: 20px 15%;
     display: flex;
+    justify-content: space-between;
 }
 
 .info img {
@@ -82,9 +87,18 @@ h2 {
 
 }
 
+h6 {
+    width: 150px;
+    text-align: center;
+}
+
 .quote {
     background-color: #E5E7EB;
     padding: 20px 15%;
+}
+h3 {
+    text-align: right;
+    
 }
 
 .calltoaction {
