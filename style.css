@@ -6,28 +6,31 @@ body {
     display: flex;
     font-size: 24px;
     color: #F9FAF8;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     
 }
 .header-links {
     display: flex;
-    font-size: 18px;
-    color: #E5E7EB;
+    gap: 25px;
 }
 .hero{
     display: flex;
+    
 }
 
 .herotext {
     padding-right: 35px;
+    
 }
 
 h1{ 
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0%;
+    
 
 }
-h4{
+h4, a {
     font-size: 18px;
     color: #E5E7EB;
 
@@ -44,7 +47,7 @@ button {
 
 
 .top {
-    padding: 20px 10%;
+    padding: 20px 10% 100px;
 }
 
 .top, .footer {
@@ -55,6 +58,7 @@ button {
 a {
 /* this removes the line under our links */
 text-decoration: none;
+
 }
 
 ul {
@@ -115,6 +119,7 @@ h3 {
 }
 
 .footer {
+    justify-items: center;
     text-align: center;
     padding: 35px;
     color: #E5E7EB;
