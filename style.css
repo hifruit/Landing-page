@@ -24,7 +24,12 @@ body {
 
 .herotext {
     padding-right: 35px;
+    display: flex;
+    flex-direction: column;
     
+}
+.herotext button{
+    margin-top: auto;
 }
 
 h1{ 
@@ -40,9 +45,7 @@ h4, a {
     color: #E5E7EB;
 
 }
-h4 {
-    margin-top: 0%;
-}
+
 
 button {
     background-color: #3882F6;
@@ -81,11 +84,13 @@ ul {
   }
 
 .middle {
-    margin: 20px 0%;
+    margin: 50px 0%;
     
 }
 h2 {
     text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
 }
 
 .info {
@@ -102,8 +107,12 @@ h2 {
 }
 
 h6 {
-    width: 150px;
+    width: 188px;
     text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+    margin-top: 0%;
+    
 }
 
 .quote {
@@ -112,6 +121,7 @@ h6 {
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
+    color: #1F2937;
 }
 h3 {
     text-align: right;
@@ -145,9 +155,8 @@ h3 {
 }
 
 .footer {
-    justify-items: center;
+    
     text-align: center;
     padding: 35px;
     color: #E5E7EB;
-    height: 30px;
-}
+    
