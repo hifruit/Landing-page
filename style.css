@@ -1,5 +1,5 @@
 body {
-    
+    font-family:   'Roboto', Arial, sans-serif;
     margin: 0%;
 }
 .header {
@@ -20,12 +20,14 @@ body {
 .hero{
     display: flex;
     
+    
 }
 
 .herotext {
     padding-right: 35px;
     display: flex;
     flex-direction: column;
+    max-height: 300px;
     
 }
 .herotext button{
@@ -159,4 +161,4 @@ h3 {
     text-align: center;
     padding: 35px;
     color: #E5E7EB;
-    
+}
